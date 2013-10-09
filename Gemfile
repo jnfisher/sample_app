@@ -9,6 +9,7 @@ gem 'bcrypt-ruby', '3.0.1'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :test do
